@@ -1,4 +1,4 @@
-# bora.github.io
+# borakkin.github.o
 
 Bu repository basit bir statik site içerir.
 
