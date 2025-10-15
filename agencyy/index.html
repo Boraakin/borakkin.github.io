@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+
+<html class="light" lang="tr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Reklam Ajansı</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1193d4",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101c22",
+                        "accent": "#E67E22",
+                    },
+                    fontFamily: {
+                        "display": ["Work Sans", "Noto Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f0f3f4] dark:border-b-gray-700 px-4 sm:px-10 py-3 bg-white dark:bg-background-dark">
+<div class="flex items-center gap-4 text-[#111618] dark:text-white">
+<div class="size-6">
+<svg fill="currentColor" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 4H17.3334V17.3334H30.6666V30.6666H44V44H4V4Z"></path>
+</svg>
+</div>
+<h2 class="text-[#111618] dark:text-white text-lg font-bold leading-tight tracking-[-0.015em]">Reklam Ajansı</h2>
+</div>
+<div class="hidden md:flex flex-1 justify-end gap-8">
+    <div class="flex items-center gap-9">
+    <a class="text-[#111618] dark:text-white text-sm font-medium leading-normal" href="index.html">Ana Sayfa</a>
+    <a class="text-[#111618] dark:text-white text-sm font-medium leading-normal" href="about.html">Hakkımızda</a>
+    <a class="text-[#111618] dark:text-white text-sm font-medium leading-normal" href="services.html">Hizmetler</a>
+    <a class="text-[#111618] dark:text-white text-sm font-medium leading-normal" href="portfolio.html">Portfolyo</a>
+    <a class="text-primary text-sm font-bold leading-normal" href="contact.html">İletişim</a>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em]">
+<span class="truncate">Teklif Al</span>
+</button>
+</div>
+<button data-mobile-toggle class="md:hidden flex items-center justify-center rounded-lg p-2 bg-primary/10 dark:bg-primary/20 text-primary">
+<span class="material-symbols-outlined">menu</span>
+</button>
+<!-- Mobile menu (hidden by default) -->
+<div id="mobile-menu" class="md:hidden hidden bg-white dark:bg-background-dark border-t border-solid border-t-[#f0f3f4]">
+    <div class="flex flex-col p-4">
+        <a class="py-2 text-sm text-[#111618] dark:text-white" href="index.html">Ana Sayfa</a>
+        <a class="py-2 text-sm text-[#111618] dark:text-white" href="about.html">Hakkımızda</a>
+        <a class="py-2 text-sm text-[#111618] dark:text-white" href="services.html">Hizmetler</a>
+        <a class="py-2 text-sm text-[#111618] dark:text-white" href="portfolio.html">Portfolyo</a>
+        <a class="py-2 text-sm text-primary" href="contact.html">İletişim</a>
+    </div>
+</div>
+
+<script>
+    // Mobile menu toggle
+    document.addEventListener('click', function (e) {
+        var btn = e.target.closest('[data-mobile-toggle]');
+        if (!btn) return;
+        var menu = document.getElementById('mobile-menu');
+        if (!menu) return;
+        if (menu.classList.contains('hidden')) {
+            menu.classList.remove('hidden');
+        } else {
+            menu.classList.add('hidden');
+        }
+    });
+</script>
+</header>
+<!-- Hero Section -->
+<div class="px-4 sm:px-10 md:px-20 lg:px-40 py-5">
+<div class="layout-content-container flex flex-col max-w-[960px] mx-auto flex-1">
+<div class="@container">
+<div class="@[480px]:p-4">
+<div class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-lg items-center justify-center p-4" data-alt="Abstract gradient background from dark blue to light blue" style='background-image: linear-gradient(rgba(44, 62, 80, 0.7) 0%, rgba(44, 62, 80, 0.4) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuB20rnOBSKdxoCZPxDpxaJl4aUamWSs6scoL1HeTOFeVMhqFIZ3vx42KOkJlphhLve69cIDMWAkbgr78ojv3KEwdXIaezeKHE_chGhgpkO7Nr9Cwi4Ltln3E2OkeTeOEUnrT7FhMgos8QtTuLWDEACwNjCWcvoqEOpWgmmYbJd9ke00Dt_uYb_rCawrde9TtMSO6NPnSI4EgF-mE3STIG8iEIxDMGZptwcDimIKhzyfc7My2UYTr4Zwb4CaVfELZHy9B4IVhja4DHKW");'>
+<div class="flex flex-col gap-2 text-center">
+<h1 class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]">
+                                        Yaratıcı Fikirler, Etkili Sonuçlar
+                                    </h1>
+<h2 class="text-white text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">
+                                        Markanızı bir sonraki seviyeye taşıyacak yenilikçi reklam çözümleri sunuyoruz.
+                                    </h2>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-accent text-white text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em] transition-transform hover:scale-105">
+<span class="truncate">Hizmetlerimizi Keşfedin</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- About Us Section -->
+<div class="px-4 sm:px-10 md:px-20 lg:px-40 py-5">
+<div class="layout-content-container flex flex-col max-w-[960px] mx-auto flex-1">
+<h2 class="text-[#2C3E50] dark:text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Hakkımızda</h2>
+<p class="text-[#2C3E50] dark:text-[#ECF0F1] text-base font-normal leading-normal pb-3 pt-1 px-4">
+                        Biz, markanızın hikayesini en etkili şekilde anlatmak için tutkuyla çalışan bir reklam ajansıyız. Misyonumuz, müşterilerimizin hedeflerine ulaşmalarını sağlayacak yaratıcı ve yenilikçi stratejiler geliştirmektir. Vizyonumuz, sektörde lider bir ajans olarak tanınmak ve müşterilerimize sürdürülebilir başarılar sunmaktır. Temel değerlerimiz arasında dürüstlük, şeffaflık ve müşteri odaklılık yer almaktadır.
+                    </p>
+</div>
+</div>
+<!-- Services Section -->
+<div class="px-4 sm:px-10 md:px-20 lg:px-40 py-5">
+<div class="layout-content-container flex flex-col max-w-[960px] mx-auto flex-1">
+<h2 class="text-[#2C3E50] dark:text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Hizmetlerimiz</h2>
+<div class="grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-4 p-4">
+<div class="flex flex-1 gap-3 rounded-lg border border-[#dbe2e6] dark:border-gray-700 bg-white dark:bg-[#1a2831] p-4 flex-col transition-shadow hover:shadow-lg">
+<span class="material-symbols-outlined text-accent" style="font-size: 32px;">campaign</span>
+<div class="flex flex-col gap-1">
+<h2 class="text-[#2C3E50] dark:text-white text-base font-bold leading-tight">Dijital Pazarlama</h2>
+<p class="text-[#617c89] dark:text-gray-400 text-sm font-normal leading-normal">
+                                    SEO, PPC ve e-posta pazarlaması dahil olmak üzere kapsamlı dijital pazarlama hizmetleri.
+                                </p>
+</div>
+</div>
+<div class="flex flex-1 gap-3 rounded-lg border border-[#dbe2e6] dark:border-gray-700 bg-white dark:bg-[#1a2831] p-4 flex-col transition-shadow hover:shadow-lg">
+<span class="material-symbols-outlined text-accent" style="font-size: 32px;">lightbulb</span>
+<div class="flex flex-col gap-1">
+<h2 class="text-[#2C3E50] dark:text-white text-base font-bold leading-tight">Marka Stratejisi</h2>
+<p class="text-[#617c89] dark:text-gray-400 text-sm font-normal leading-normal">Markanızın kimliğini ve pazardaki konumunu güçlendirecek stratejiler geliştiriyoruz.</p>
+</div>
+</div>
+<div class="flex flex-1 gap-3 rounded-lg border border-[#dbe2e6] dark:border-gray-700 bg-white dark:bg-[#1a2831] p-4 flex-col transition-shadow hover:shadow-lg">
+<span class="material-symbols-outlined text-accent" style="font-size: 32px;">draw</span>
+<div class="flex flex-col gap-1">
+<h2 class="text-[#2C3E50] dark:text-white text-base font-bold leading-tight">İçerik Üretimi</h2>
+<p class="text-[#617c89] dark:text-gray-400 text-sm font-normal leading-normal">Hedef kitlenize hitap eden ilgi çekici ve değerli içerikler oluşturuyoruz.</p>
+</div>
+</div>
+<div class="flex flex-1 gap-3 rounded-lg border border-[#dbe2e6] dark:border-gray-700 bg-white dark:bg-[#1a2831] p-4 flex-col transition-shadow hover:shadow-lg">
+<span class="material-symbols-outlined text-accent" style="font-size: 32px;">groups</span>
+<div class="flex flex-col gap-1">
+<h2 class="text-[#2C3E50] dark:text-white text-base font-bold leading-tight">Sosyal Medya Yönetimi</h2>
+<p class="text-[#617c89] dark:text-gray-400 text-sm font-normal leading-normal">Sosyal medya kanallarınızı yönetiyor, etkileşimi artırıyor ve marka bilinirliğinizi sağlıyoruz.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>
+<!DOCTYPE html>
+
+<html class="light" lang="tr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Reklam Ajansı</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1193d4",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101c22",
+                        "accent": "#E67E22",
+                    },
+                    fontFamily: {
+                        "display": ["Work Sans", "Noto Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<!-- Hero Section -->
+<div class="px-4 sm:px-10 md:px-20 lg:px-40 py-5">
+<div class="layout-content-container flex flex-col max-w-[960px] mx-auto flex-1">
+<div class="@container">
+<div class="@[480px]:p-4">
+<div class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-lg items-center justify-center p-4" data-alt="Abstract gradient background from dark blue to light blue" style='background-image: linear-gradient(rgba(44, 62, 80, 0.7) 0%, rgba(44, 62, 80, 0.4) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuB20rnOBSKdxoCZPxDpxaJl4aUamWSs6scoL1HeTOFeVMhqFIZ3vx42KOkJlphhLve69cIDMWAkbgr78ojv3KEwdXIaezeKHE_chGhgpkO7Nr9Cwi4Ltln3E2OkeTeOEUnrT7FhMgos8QtTuLWDEACwNjCWcvoqEOpWgmmYbJd9ke00Dt_uYb_rCawrde9TtMSO6NPnSI4EgF-mE3STIG8iEIxDMGZptwcDimIKhzyfc7My2UYTr4Zwb4CaVfELZHy9B4IVhja4DHKW");'>
+<div class="flex flex-col gap-2 text-center">
+<h1 class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]">
+                                        Yaratıcı Fikirler, Etkili Sonuçlar
+                                    </h1>
+<h2 class="text-white text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">
+                                        Markanızı bir sonraki seviyeye taşıyacak yenilikçi reklam çözümleri sunuyoruz.
+                                    </h2>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-accent text-white text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em] transition-transform hover:scale-105">
+<span class="truncate">Hizmetlerimizi Keşfedin</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- About Us Section -->
+<div class="px-4 sm:px-10 md:px-20 lg:px-40 py-5">
+<div class="layout-content-container flex flex-col max-w-[960px] mx-auto flex-1">
+<h2 class="text-[#2C3E50] dark:text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Hakkımızda</h2>
+<p class="text-[#2C3E50] dark:text-[#ECF0F1] text-base font-normal leading-normal pb-3 pt-1 px-4">
+                        Biz, markanızın hikayesini en etkili şekilde anlatmak için tutkuyla çalışan bir reklam ajansıyız. Misyonumuz, müşterilerimizin hedeflerine ulaşmalarını sağlayacak yaratıcı ve yenilikçi stratejiler geliştirmektir. Vizyonumuz, sektörde lider bir ajans olarak tanınmak ve müşterilerimize sürdürülebilir başarılar sunmaktır. Temel değerlerimiz arasında dürüstlük, şeffaflık ve müşteri odaklılık yer almaktadır.
+                    </p>
+</div>
+</div>
+<!-- Services Section -->
+<div class="px-4 sm:px-10 md:px-20 lg:px-40 py-5">
+<div class="layout-content-container flex flex-col max-w-[960px] mx-auto flex-1">
+<h2 class="text-[#2C3E50] dark:text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Hizmetlerimiz</h2>
+<div class="grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-4 p-4">
+<div class="flex flex-1 gap-3 rounded-lg border border-[#dbe2e6] dark:border-gray-700 bg-white dark:bg-[#1a2831] p-4 flex-col transition-shadow hover:shadow-lg">
+<span class="material-symbols-outlined text-accent" style="font-size: 32px;">campaign</span>
+<div class="flex flex-col gap-1">
+<h2 class="text-[#2C3E50] dark:text-white text-base font-bold leading-tight">Dijital Pazarlama</h2>
+<p class="text-[#617c89] dark:text-gray-400 text-sm font-normal leading-normal">
+                                    SEO, PPC ve e-posta pazarlaması dahil olmak üzere kapsamlı dijital pazarlama hizmetleri.
+                                </p>
+</div>
+</div>
+<div class="flex flex-1 gap-3 rounded-lg border border-[#dbe2e6] dark:border-gray-700 bg-white dark:bg-[#1a2831] p-4 flex-col transition-shadow hover:shadow-lg">
+<span class="material-symbols-outlined text-accent" style="font-size: 32px;">lightbulb</span>
+<div class="flex flex-col gap-1">
+<h2 class="text-[#2C3E50] dark:text-white text-base font-bold leading-tight">Marka Stratejisi</h2>
+<p class="text-[#617c89] dark:text-gray-400 text-sm font-normal leading-normal">Markanızın kimliğini ve pazardaki konumunu güçlendirecek stratejiler geliştiriyoruz.</p>
+</div>
+</div>
+<div class="flex flex-1 gap-3 rounded-lg border border-[#dbe2e6] dark:border-gray-700 bg-white dark:bg-[#1a2831] p-4 flex-col transition-shadow hover:shadow-lg">
+<span class="material-symbols-outlined text-accent" style="font-size: 32px;">draw</span>
+<div class="flex flex-col gap-1">
+<h2 class="text-[#2C3E50] dark:text-white text-base font-bold leading-tight">İçerik Üretimi</h2>
+<p class="text-[#617c89] dark:text-gray-400 text-sm font-normal leading-normal">Hedef kitlenize hitap eden ilgi çekici ve değerli içerikler oluşturuyoruz.</p>
+</div>
+</div>
+<div class="flex flex-1 gap-3 rounded-lg border border-[#dbe2e6] dark:border-gray-700 bg-white dark:bg-[#1a2831] p-4 flex-col transition-shadow hover:shadow-lg">
+<span class="material-symbols-outlined text-accent" style="font-size: 32px;">groups</span>
+<div class="flex flex-col gap-1">
+<h2 class="text-[#2C3E50] dark:text-white text-base font-bold leading-tight">Sosyal Medya Yönetimi</h2>
+<p class="text-[#617c89] dark:text-gray-400 text-sm font-normal leading-normal">Sosyal medya kanallarınızı yönetiyor, etkileşimi artırıyor ve marka bilinirliğinizi sağlıyoruz.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

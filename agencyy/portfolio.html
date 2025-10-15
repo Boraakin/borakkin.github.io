@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<html class="light" lang="tr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Ajans Portfolyosu</title>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#1193d4",
+            "background-light": "#f6f7f8",
+            "background-dark": "#101c22",
+          },
+          fontFamily: {
+            "display": ["Work Sans", "Noto Sans", "sans-serif"]
+          },
+          borderRadius: {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+        },
+      },
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+    }
+  </style>
+</head>
+<body>
+<div class="relative flex h-auto min-h-screen w-full flex-col bg-background-light dark:bg-background-dark group/design-root overflow-x-hidden font-display" style='font-family: "Work Sans", "Noto Sans", sans-serif;'>
+<div class="layout-container flex h-full grow flex-col">
+<div class="px-4 md:px-10 lg:px-40 flex flex-1 justify-center py-5">
+<div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-gray-200 dark:border-b-gray-700 px-4 sm:px-10 py-3">
+<div class="flex items-center gap-4 text-gray-800 dark:text-white">
+<div class="size-6 text-primary">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M42.4379 44C42.4379 44 36.0744 33.9038 41.1692 24C46.8624 12.9336 42.2078 4 42.2078 4L7.01134 4C7.01134 4 11.6577 12.932 5.96912 23.9969C0.876273 33.9029 7.27094 44 7.27094 44L42.4379 44Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="text-lg font-bold leading-tight tracking-[-0.015em]">Ajans</h2>
+</div>
+<div class="hidden md:flex flex-1 justify-end gap-8">
+<div class="flex items-center gap-9">
+  <a class="text-[#617c89] dark:text-gray-400 text-base font-normal leading-normal min-w-40" href="index.html">Ana Sayfa</a>
+  <a class="text-[#617c89] dark:text-gray-400 text-base font-normal leading-normal min-w-40" href="about.html">Hakkımızda</a>
+  <a class="text-[#617c89] dark:text-gray-400 text-base font-normal leading-normal min-w-40" href="services.html">Hizmetler</a>
+  <a class="text-[#617c89] dark:text-gray-400 text-base font-normal leading-normal min-w-40" href="portfolio.html">Portfolyo</a>
+  <a class="text-gray-800 dark:text-gray-300 text-sm font-medium leading-normal" href="contact.html">İletişim</a>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em]">
+<span class="truncate">Teklif Al</span>
+</button>
+</div>
+<button class="md:hidden text-gray-800 dark:text-white">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</header>
+<main class="flex-1">
+<div class="flex flex-wrap justify-between gap-3 p-4 mt-8">
+<div class="flex min-w-72 flex-col gap-3">
+<p class="text-gray-900 dark:text-white text-4xl font-black leading-tight tracking-[-0.033em]">Portfolyo</p>
+<p class="text-gray-500 dark:text-gray-400 text-base font-normal leading-normal">Müşterilerimiz için oluşturduğumuz güzel ve etkili kampanyalar.</p>
+</div>
+</div>
+<div class="flex gap-3 p-3 overflow-x-auto">
+<div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-full bg-primary pl-4 pr-4">
+<p class="text-white text-sm font-medium leading-normal">Tümü</p>
+</div>
+<div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-full bg-gray-200 dark:bg-gray-700 pl-4 pr-4">
+<p class="text-gray-800 dark:text-gray-300 text-sm font-medium leading-normal">Dijital Pazarlama</p>
+</div>
+<div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-full bg-gray-200 dark:bg-gray-700 pl-4 pr-4">
+<p class="text-gray-800 dark:text-gray-300 text-sm font-medium leading-normal">Marka Kimliği</p>
+</div>
+<div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-full bg-gray-200 dark:bg-gray-700 pl-4 pr-4">
+<p class="text-gray-800 dark:text-gray-300 text-sm font-medium leading-normal">Video Prodüksiyonu</p>
+</div>
+<div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-full bg-gray-200 dark:bg-gray-700 pl-4 pr-4">
+<p class="text-gray-800 dark:text-gray-300 text-sm font-medium leading-normal">Web Tasarımı</p>
+</div>
+</div>
+<div class="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-6 p-4">
+<div class="group relative bg-cover bg-center flex flex-col gap-3 rounded-lg justify-end p-4 aspect-square overflow-hidden cursor-pointer" data-alt="Nike Air Max Lansmanı için hazırlanmış görsel" style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuAvb0JrUIQyMe7K7TIQm-Z3WbHe9adGNRJktU2hO0MWBl3EdavO9WJsoF896WedrFmBeBwa9UKWKocYRCl49lVBjxCCZ7ky7UPnyUDG8-ixStGagcEHDTlCiFyY4XStnb8avAtePxmW2h0jmmFqCoENBGs0NMA0QAW9DaYASBBLwAlBYPzH-0vTmepGLr8SddlZYSYZZ6t5R-JWmC3wtRH4BHzPp0s3XSzbGBYmCqMYdLGTZsoqoHC9fk3-Dxev5STLodrHqbJmAfJa");'>
+<div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300"></div>
+<div class="relative">
+<p class="text-white text-base font-bold leading-tight line-clamp-2">Nike - Air Max Lansmanı</p>
+<p class="text-gray-300 text-sm">Dijital Pazarlama</p>
+</div>
+<div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+<button class="flex items-center justify-center rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold">Detayları Gör</button>
+</div>
+</div>
+<div class="group relative bg-cover bg-center flex flex-col gap-3 rounded-lg justify-end p-4 aspect-square overflow-hidden cursor-pointer" data-alt="Coca-Cola Yaz Kampanyası görseli" style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBtTjrhrVQ2OnD1cfRsDwoa5xQEPOlJ3qgyYzV1jM1Juvg9fv1RmpjJz6MqFUhAvA5LEWr8fkRo1yodrhmFtnUtBZ6KsAnvnmfKTIfp43O-6aJM_si0eB3RscCr8q_9pQl7xoNv6wwkTkFui7VoesmXcDq2hAX890APQPWDXrilsYlzD9ndqvFhukX6qnnzZ0wwvcpVRtWv1hDUViLcYU7cLHUVxESBi7RuIOpdtriA09Of0PSopqWUCM20hrrpW-JkGIQqW69UnmKa");'>
+<div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300"></div>
+<div class="relative">
+<p class="text-white text-base font-bold leading-tight line-clamp-2">Coca-Cola - Yaz Kampanyası</p>
+<p class="text-gray-300 text-sm">Marka Kimliği</p>
+</div>
+<div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+<button class="flex items-center justify-center rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold">Detayları Gör</button>
+</div>
+</div>
+<div class="group relative bg-cover bg-center flex flex-col gap-3 rounded-lg justify-end p-4 aspect-square overflow-hidden cursor-pointer" data-alt="Adidas Koşu Ayakkabısı projesi" style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuAHxvyaKeosgx9b8Tj0BFP7uHZYOp6Un7xrdIx9DDhL2GJ6J8Ah1iSqa4UK22_q3FrK3bUtkMPKDX7DqC2xTcVcN1kVwKzzBD5MY65MjmoS-W_7JAF56a4j6hUe1YO5vdynjNldmE1TU0zM1-7OPR2XEwPklFmrBlCmL71d2lApfOBqgXtdrPI7pn5cKyMaRRkRTY8H_xnO43ay4E5yQUBY4vQEX9G45FNaTkD_oHgMJ-gtUGGqthJ7UIPcpYc2QzkV9Bmu-NlWvl47");'>
+<div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300"></div>
+<div class="relative">
+<p class="text-white text-base font-bold leading-tight line-clamp-2">Adidas - Koşu Ayakkabısı</p>
+<p class="text-gray-300 text-sm">Video Prodüksiyonu</p>
+</div>
+<div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+<button class="flex items-center justify-center rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold">Detayları Gör</button>
+</div>
+</div>
+<div class="group relative bg-cover bg-center flex flex-col gap-3 rounded-lg justify-end p-4 aspect-square overflow-hidden cursor-pointer" data-alt="Starbucks websitesi yenileme projesi" style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuC0WXYheNYk0KaY_M9uhOlvRo3L9WiMNB7KZ0VG4oBFbvfayH_miEbOnkoAJwIL65Q1lcHsroQZrdUaqci2nnnN-qwAJLVDHtJO3WSvxtmola549pA9KqPCHbuUkhRxN7-E1rqPyI-eL0OL43t3qHJkaM_hF3dIftdCm8OPjvD0zhgv57ZjEN-EiVqkOOzMR0Z5gVFdckphDm4uTG1n5VLnOcH-PmgwCvSFRJs64Xt5ZEyxCY4OBYNH-wfiCuqMasH_2qFb9En0FZz_");'>
+<div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300"></div>
+<div class="relative">
+<p class="text-white text-base font-bold leading-tight line-clamp-2">Starbucks - Web Sitesi Yenileme</p>
+<p class="text-gray-300 text-sm">Web Tasarımı</p>
+</div>
+<div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+<button class="flex items-center justify-center rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold">Detayları Gör</button>
+</div>
+</div>
+<div class="group relative bg-cover bg-center flex flex-col gap-3 rounded-lg justify-end p-4 aspect-square overflow-hidden cursor-pointer" data-alt="Apple Watch tanıtım filmi" style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBfkqu_lV0IkF8gejrvKkt7dbjVsBdqgPBFG3wLjLvqbfEsbYHCS6j3GtMiyF2gmGBw41j4OQE59qxvbXHY-_uZqhcsSK9LFMwbBgLPXQdxM-0hMcYSu6YEg84-JntbfXbGIIR-0Q9j2bSyKnHA0iBMpKGjP8L5-ozZMKa8yfUsLRTiXS5krb066_URV8Oe02XHncTAK_Cu9cJE984D9Btpr6Xyb6V5KbvA6G7zwW3OpN7jFAj2PO2Iy5nguVXlTaJFlJzxlbhHUnYX");'>
+<div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300"></div>
+<div class="relative">
+<p class="text-white text-base font-bold leading-tight line-clamp-2">Apple - Watch Serisi 9</p>
+<p class="text-gray-300 text-sm">Video Prodüksiyonu</p>
+</div>
+<div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+<button class="flex items-center justify-center rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold">Detayları Gör</button>
+</div>
+</div>
+<div class="group relative bg-cover bg-center flex flex-col gap-3 rounded-lg justify-end p-4 aspect-square overflow-hidden cursor-pointer" data-alt="Sony kulaklık sosyal medya kampanyası" style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBKD_ri7IM9DT0IpMOZu5XO8yYi5sHSKbKJwco7GTZuePSSrfPVbWlwYYcv7ABCMJNy3Nr5W-8MhKdnp1bs_8h4IlmS1FRqbGcFzuf4Ay0tTrNFpQBerC3Y5RnZZLPT0d0C1n50cp3MwT3QcjVGB4mIKZPLiy3Nh9WN3OHNNgSFkDC7tkj0tu3HuVjCZxJ5LafbZaYOIhS1u3GH0rtJzSh_bArtS9fKxa7gNcFiThxf4VuXL2vJp6o5h6dhrHIzoe0HXsgkyGavAOmI");'>
+<div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300"></div>
+<div class="relative">
+<p class="text-white text-base font-bold leading-tight line-clamp-2">Sony - WH-1000XM5 Kampanyası</p>
+<p class="text-gray-300 text-sm">Dijital Pazarlama</p>
+</div>
+<div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+<button class="flex items-center justify-center rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold">Detayları Gör</button>
+</div>
+</div>
+</div>
+<div class="flex px-4 py-8 justify-center">
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-300 text-base font-bold leading-normal tracking-[0.015em] hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors">
+<span class="truncate">Daha Fazla Yükle</span>
+</button>
+</div>
+</main>
+</div>
+</div>
+</div>
+</div>
+</body></html>
